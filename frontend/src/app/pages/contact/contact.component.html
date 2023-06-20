@@ -1,0 +1,8 @@
+
+<input #fieldboy id="address" type="text" formControlName="Title">
+<button (click) = "createNewContent(fieldboy.value)">submit</button>
+
+<div *ngFor="let element of content">
+    <div>{{element.title}}</div>
+</div>
+
