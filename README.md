@@ -1,4 +1,4 @@
-<!-- MEAN STACK 
+ MEAN STACK 
  
  Mongo db, express js server, angular, node engine 
  mongoose used to connect to mongo, change the port in the file if mongo is running on a different port locally and database if needed, obviously accompanied by model changes too 
@@ -26,4 +26,4 @@
 
  after this your server should work and connect to mongo on start, but still can't be acess from the outside to your ubuntu server
  after intalling NGINX (rerouter in this case) change etc/ ... can't remember the path ... / default to redirect all traphic to port 3000, check the syntax, restart and check the server status
- if all okay that should now be running and accessible from the public  -->
+ if all okay that should now be running and accessible from the public  
